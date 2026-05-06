@@ -1,0 +1,66 @@
+{
+  "name": "finflow-backend",
+  "version": "1.0.0",
+  "description": "FinFlow Pro — Financial Transaction & Payout Management Platform Backend API",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest --coverage --forceExit",
+    "test:watch": "jest --watchAll",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix",
+    "seed": "node src/scripts/seed.js",
+    "migrate": "node src/scripts/migrate.js"
+  },
+  "keywords": [
+    "fintech",
+    "transaction-management",
+    "mobile-banking",
+    "agent-management",
+    "payout",
+    "bangladesh"
+  ],
+  "author": "FinFlow Pro Engineering Team",
+  "license": "PROPRIETARY",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bullmq": "^5.25.6",
+    "cloudinary": "^2.10.0",
+    "compression": "^1.7.5",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^7.4.1",
+    "grammy": "^1.42.0",
+    "helmet": "^8.0.0",
+    "hpp": "^0.2.3",
+    "http-status-codes": "^2.3.0",
+    "ioredis": "^5.4.1",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.8.3",
+    "morgan": "^1.10.0",
+    "ms": "^2.1.3",
+    "multer": "^1.4.5-lts.1",
+    "puppeteer": "^23.11.1",
+    "twilio": "^5.13.1",
+    "uuid": "^11.0.3",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "eslint": "^9.15.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.7",
+    "supertest": "^7.0.0"
+  }
+}

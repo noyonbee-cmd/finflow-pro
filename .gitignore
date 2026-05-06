@@ -1,0 +1,27 @@
+# Node
+node_modules/
+npm-debug.log
+
+# Envs
+.env
+.env.*
+!.env.example
+
+# Flutter/Dart
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.log
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.iml
